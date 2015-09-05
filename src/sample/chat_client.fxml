@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="427.0" layoutY="14.0" prefHeight="202.0" prefWidth="153.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextArea layoutX="14.0" layoutY="14.0" prefHeight="258.0" prefWidth="395.0" />
+      <TextArea layoutX="16.0" layoutY="288.0" prefHeight="124.0" prefWidth="568.0" />
+      <Button layoutX="16.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="568.0" text="Отправить" />
+      <Pane layoutX="427.0" layoutY="221.0" prefHeight="61.0" prefWidth="153.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="153.0" text="Зобанить" />
+            <Button layoutX="81.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="По нику" />
+            <Button layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="ПО IP" />
+         </children>
+      </Pane>
+   </children>
+</fx:root>
