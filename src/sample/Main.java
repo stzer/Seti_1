@@ -12,15 +12,11 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-
-
-
-
     @Override
     public void start(Stage stage) throws Exception{
         LoginController loginController=new LoginController();
         stage.setScene(new Scene(loginController));
-        stage.setTitle("Авторизация");
+        stage.setTitle("Sign in");
         stage.setWidth(359);
         stage.setHeight(290);
         stage.setResizable(false);

@@ -9,14 +9,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 
-
 <fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="359.0" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button fx:id="goChat" layoutX="27.0" layoutY="222.0" mnemonicParsing="false" onAction="#createChat" prefHeight="25.0" prefWidth="291.0" text="Отправить" />
+      <Button fx:id="goChat" layoutX="27.0" layoutY="208.0" mnemonicParsing="false" onAction="#createChat" prefHeight="39.0" prefWidth="291.0" text="Отправить" />
       <TextField layoutX="27.0" layoutY="40.0" prefHeight="25.0" prefWidth="291.0" promptText="IP" />
       <TextField layoutX="27.0" layoutY="88.0" prefHeight="25.0" prefWidth="291.0" promptText="Имя" />
       <RadioButton layoutX="27.0" layoutY="159.0" mnemonicParsing="false" text="Создать чат" />
       <RadioButton layoutX="191.0" layoutY="159.0" mnemonicParsing="false" selected="true" text="Подключиться к чату" />
-      <Slider layoutX="27.0" layoutY="193.0" prefHeight="14.0" prefWidth="291.0" />
    </children>
 </fx:root>
